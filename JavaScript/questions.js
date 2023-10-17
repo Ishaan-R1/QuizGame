@@ -1,0 +1,121 @@
+let questions = [
+  {
+    question: "Who is the all-time top scorer in Premier League history?",
+    a: "Thierry Henry",
+    b: "Wayne Rooney",
+    c: "Alan Shearer",
+    d: "Sergio Agüero",
+    answer: "c",
+  },
+  {
+    question: "Which team holds the record for the most Premier League titles?",
+    a: "Arsenal",
+    b: "Liverpool",
+    c: "Man United",
+    d: "Man City",
+    answer: "c",
+  },
+  {
+    question:
+      "Who won the Premier League Golden Boot for the 2022-2023 season?",
+    a: "Mohamed Salah",
+    b: "Harry Kane",
+    c: "Erling Haaland",
+    d: "Son Heung-min",
+    answer: "c",
+  },
+  {
+    question:
+      "Which club famously went unbeaten throughout the entire 2003-2004 Premier League season?",
+    a: "Liverpool",
+    b: "Chelsea",
+    c: "Manchester United",
+    d: "Arsenal",
+    answer: "d",
+  },
+  {
+    question: "Who is the manager of Manchester City as of 2023?",
+    a: "Jürgen Klopp",
+    b: "José Mourinho",
+    c: "Ole Gunnar Solskjær",
+    d: "Pep Guardiola",
+    answer: "d",
+  },
+  {
+    question:
+      "Which player holds the record for the most Premier League assists in a single season?",
+    a: "Kevin De Bruyne",
+    b: "Frank Lampard",
+    c: "Cesc Fàbregas",
+    d: "Thierry Henry",
+    answer: "a",
+  },
+  {
+    question: "Which stadium is the home of Arsenal FC?",
+    a: "Old Trafford",
+    b: "Anfield",
+    c: "Stamford Bridge",
+    d: "Emirates Stadium",
+    answer: "d",
+  },
+  {
+    question: "Who is the youngest goalscorer in Premier League history?",
+    a: "James Vaughan",
+    b: "Wayne Rooney",
+    c: "Michael Owen",
+    d: "Ryan Giggs",
+    answer: "a",
+  },
+  {
+    question:
+      "Which team won the inaugural Premier League season in 1992-1993?",
+    a: "Arsenal",
+    b: "Manchester United",
+    c: "Liverpool",
+    d: "Leeds United",
+    answer: "b",
+  },
+  {
+    question:
+      "Who is known as the 'Special One' and managed Chelsea during two spells in the Premier League?",
+    a: "José Mourinho",
+    b: "Arsène Wenger",
+    c: "Rafa Benítez",
+    d: "Claudio Ranieri",
+    answer: "a",
+  },
+  {
+    question: "Which club is nicknamed the 'Red Devils'",
+    a: "Liverpool",
+    b: "Manchester City",
+    c: "Manchester United",
+    d: "Chelsea",
+    answer: "c",
+  },
+  {
+    question: "Who is the captain of Liverpool FC as of 2023?",
+    a: "Virgil van Dijk",
+    b: "Mohamed Salah",
+    c: "Andrew Robertson",
+    d: "Trent Alexander-Arnold",
+    answer: "a",
+  },
+  {
+    question:
+      "Which player famously scored a hat-trick in just 7 minutes for Southampton against Aston Villa in 2015?",
+    a: "Jamie Vardy",
+    b: "Sadio Mané",
+    c: "Theo Walcott",
+    d: "Harry Kane",
+    answer: "b",
+  },
+  {
+    question:
+      "Who holds the record for the most appearances in the Premier League?",
+    a: "Steven Gerrard",
+    b: "Frank Lampard",
+    c: "Ryan Giggs",
+    d: "Gareth Barry",
+    answer: "d",
+  },
+];

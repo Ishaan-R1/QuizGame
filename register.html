@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <title>Register Page</title>
+</head>
+
+<body>
+    <ul>
+        <div style="float:left" class="img"><img src="Images/Logo2.png" alt="Math Quiz Picture" height="50"
+                width="100" />
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="game.html">Game</a></li>
+        <li><a href="rankings.html">Rankings</a></li>
+        <li class="active" style="float:right"><a href="register.html">Sign Up</a></li>
+        <li style="float:right"><a href="login.html">Login</a></li>
+    </ul>
+    <div class="registerContainer">
+        <h1 style="font-family: Arial, Helvetica, sans-serif;">Sign Up</h1>
+        <hr>
+        <form onsubmit="return false;" name="registrationForm" class="form">
+            <label><b>First Name:</b></label><br> <!--displaying username label and text field-->
+            <input class="inputField" type="text" name="firstName" id="nameInput" value=Name><br>
+            <p id="firstName"></p>
+            <label><b>Last Name:</b></label><br> <!--displaying password label and text field-->
+            <input class="inputField" type="text" name="lastName" id="surnameInput" value=Surname><br><br>
+            <p id="lastName"></p>
+            <label><b>Email:</b></label><br> <!--displaying username label and text field-->
+            <input class="inputField" type="email" name="email" id="EmailInput" value=test@test.com><br><br>
+            <p id="email"></p>
+            <label><b>Phone number:</b></label><br> <!--displaying username label and text field-->
+            <input class="inputField" type="number" name="telNum" id="numInput" value=1234567890><br><br>
+            <p id="telNum"></p>
+            <label><b>Password:</b></label><br> <!--displaying password label and text field-->
+            <input class="inputField" type="password" name="password" id="PasswordInput" value=Test55$$><br><br>
+            <p id="password"></p>
+            <button id="btn1" onclick="Functions()">Register</button>
+            <!-- <button id="btn" onclick="clearUser()">Clear</button> -->
+
+            <!-- Display registration result -->
+            <p id="regResult"></p>
+        </form>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Already have an account? <a href="login.html">Sign Up</a>
+        </p>
+    </div>
+
+
+</body>
+
+<script src="JavaScript/register.js"></script>
+
+<footer class="regFooter">
+    <p>Ishaan Rahim</p>
+</footer>
+
+</html>

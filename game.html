@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <title>Quiz Website</title>
+
+</head>
+<body>
+    <ul>
+        <div style="float:left" class="img"><img src="Images/Logo2.png" alt="Math Quiz Picture" height="50" width="100" />
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="game.html">Game</a></li>
+        <li><a href="rankings.html">Rankings</a></li>
+        <li style="float:right"><a href="register.html">Sign Up</a></li>
+        <li style="float:right"><a href="login.html">Login</a></li>
+    </ul>
+    <div id="gameContentBorder" class="container">
+        <div id="startQuiz">Start Quiz</div>
+        <div id="loggedInMsg"></div>
+        <div class="question" id="question">
+            <p id="questionBorder"> </p> 
+            <p id="gameOver"> </p> 
+        </div><br>
+        <hr>
+        <!-- <div><label class="ans"><b>Answer:</b></label><br> 
+            <input type="text" id="answer" style="width: 200px">
+            <button id="btnSubmit" onclick="checkAnswer();">Submit</button></div><br><br> -->
+        <div id="answers" class="btn-grid" style="display: none;">
+        <button onclick="checkAnswer2('a')" id="answera" class="answerBtn">Answer 1</button>
+        <button onclick="checkAnswer2('b')"id="answerb" class="answerBtn">Answer 2</button>
+        <button onclick="checkAnswer2('c')"id="answerc" class="answerBtn">Answer 3</button>
+        <button onclick="checkAnswer2('d')"id="answerd" class="answerBtn">Answer 4</button>
+        </div>
+        <div id="lives" class="lives" style="display: none;">
+            <div id="live1" class="live1"></div>
+            <div id="live2" class="live2"></div>
+            <div id="live3" class="live3"></div>
+        </div>
+        <p style="font-family: Arial, Helvetica, sans-serif;" id="congratulationsMessage"></p>
+        <p style="font-family: Arial, Helvetica, sans-serif;" id="feedback"></p> <!--provide feedback of correct or incorrect -->
+        <p style="font-family: Arial, Helvetica, sans-serif;" id="feedback1"></p> 
+        <p style="font-family: Arial, Helvetica, sans-serif;" id="feedback2"></p> <br>
+
+    
+    <div><label class="score" id="score" style="display: none; font-size: larger;"><b>Score:</b></label> <!--section to display score -->
+        <!-- <p style="font-size: larger; font-family: Arial, Helvetica, sans-serif;" id="scoreBorder"> </p> -->
+    </div>
+    <div><label class="questionNum" id="questionNum" style="display: none; font-size: larger;"><b>Question:</b></label> <!--section to display score -->
+        <!-- <p style="font-size: larger; font-family: Arial, Helvetica, sans-serif;" id="scoreBorder"> </p> -->
+    </div>
+        <label class="time" id="timeLabel" style="display: none;"><b>Time:</b></label>
+        <!-- <p id="timeBorder"> </p>  -->
+        <div id="timeBorder" style="display: none;">
+            <div id="progressBar" style="display: none;"></div>
+          </div>
+    <div class="controls">
+    </div>
+    </div>
+    
+</body>
+<script src="JavaScript/quiz.js"></script> 
+
+<footer class="gameFooter">
+    <p>Ishaan Rahim</p>
+</footer>
+
+</html>

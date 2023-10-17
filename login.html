@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <title>Login Page</title>
+</head>
+
+<body>
+    <ul>
+        <div style="float:left" class="img"><img src="Images/Logo2.png" alt="Math Quiz Picture" height="50"
+                width="100" />
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="game.html">Game</a></li>
+        <li><a href="rankings.html">Rankings</a></li>
+        <li style="float:right"><a href="register.html">Sign Up</a></li>
+        <li class="active" style="float:right"><a href="login.html">Login</a></li>
+    </ul>
+    <div class="loginContainer">
+        <h1 style="font-family: Arial, Helvetica, sans-serif;">Login</h1>
+        <hr>
+        <form onsubmit="return false;">
+            <div id="loginMsg">
+                <div class="loginImgContainer">
+                    <img class="loginImg" src="Images/login.png" alt="Login image" />
+                    <!--display login image above content-->
+                </div>
+                <label for="lname">Email:</label><br>
+                <input class="inputField" type="text" id="email" name="lname" value="test@test.com">
+                <label for="lname">Password:</label><br>
+                <input class="inputField" type="text" id="password" name="lname" value="Test55$$"><br>
+                <button id="btn1" onclick="Functions()">Login</button>
+        </form>
+    </div>
+    <p id="regMsg" style="font-family: Arial, Helvetica, sans-serif;">Don't Have an Account? <a href="register.html">Register</a>
+    </p>
+    <div id="loginFailMsg"></div>
+    </div>
+
+</body>
+<footer class="loginFooter">
+    <p>Ishaan Rahim</p>
+</footer>
+<script src="JavaScript/login.js"></script>
+
+</html>
